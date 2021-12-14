@@ -5,7 +5,7 @@ const { mongoose } = require("./database");
 const path = require("path");
 //Settings
 app.use(cors());
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 3200);
 //middlewares
 app.use(express.json());
 //Routes
